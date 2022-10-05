@@ -14,8 +14,8 @@ use Spatie\Activitylog\Contracts\Activity as ActivityContract;
 
 class ActivityLogger
 {
-    use Conditionable;
     use Macroable;
+    use Conditionable;
 
     protected ?string $defaultLogName = null;
 
